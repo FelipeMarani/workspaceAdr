@@ -1,0 +1,6 @@
+2023-05-02 12:30:43,432 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-03 09:02:28,423 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2023-05-03 09:03:53,441 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-03 09:04:43,514 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repojava:8080/repository/internal/org/springframework/boot/spring-boot-starter-parent/3.0.7-SNAPSHOT/maven-metadata.xml
+2023-05-03 09:04:43,542 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repojava:8080/repository/internal/org/springframework/boot/spring-boot-starter-parent/3.0.7-SNAPSHOT/spring-boot-starter-parent-3.0.7-SNAPSHOT.pom
+2023-05-03 09:04:44,344 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
