@@ -1991,3 +1991,40 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:177)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:148)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2023-05-29 08:48:16.478
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.egit.core 4 0 2023-05-29 08:49:34.899
+!MESSAGE An exception occurred during push on URI https://github.com/programadormovel/miniprojeto3cspring2023.git: https://github.com/programadormovel/miniprojeto3cspring2023.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/programadormovel/miniprojeto3cspring2023.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1473)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-29 08:49:34.942
+!MESSAGE Can't connect to any repository: https://github.com/programadormovel/miniprojeto3cspring2023.git (https://github.com/programadormovel/miniprojeto3cspring2023.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2023-05-29 08:51:27.117
+!MESSAGE An exception occurred during push on URI https://github.com/programadormovel/miniprojeto3cspring2023.git: https://github.com/programadormovel/miniprojeto3cspring2023.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/programadormovel/miniprojeto3cspring2023.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1473)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-29 08:51:27.147
+!MESSAGE Can't connect to any repository: https://github.com/programadormovel/miniprojeto3cspring2023.git (https://github.com/programadormovel/miniprojeto3cspring2023.git: not authorized)
