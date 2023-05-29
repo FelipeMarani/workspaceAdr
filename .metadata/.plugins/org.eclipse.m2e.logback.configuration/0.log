@@ -549,3 +549,7 @@ Caused by: java.lang.Exception: File not found: Z:\LIP3\workspaceAdr\miniproject
 2023-05-26 11:58:28,821 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-05-26 11:58:28,935 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-05-26 11:58:28,956 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\LIP3\workspaceAdr\miniprojeto3cspring\src\test\resources
+2023-05-29 08:34:36,367 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-29 08:38:50,469 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-29 08:38:50,553 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-29 08:38:50,578 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\LIP3\workspaceAdr\miniprojeto3cspring\src\test\resources
