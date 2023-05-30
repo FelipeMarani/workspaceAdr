@@ -11,7 +11,7 @@ GO
 
 CREATE TABLE Produto
 (
-	id			 INT IDENTITY,
+	id			 BIGINT IDENTITY,
 	nome	     VARCHAR(100) NOT NULL,
 	descricao	 VARCHAR(400) NOT NULL,
 	codigoBarras VARCHAR(100) NOT NULL,
