@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="PreferencesImportWizard">
+		<item key="" value="Z:\LIP3\config.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="Z:\LIP3\config.epf"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+	</section>
+</section>
