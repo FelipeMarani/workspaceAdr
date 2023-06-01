@@ -20,10 +20,10 @@ public class ProdutoService {
 	}
 	
 	// Método INSERT INTO PRODUTO
-	@Transactional
-	public Produto save(Produto _produto) {
-		return produtoRepository.save(_produto);
-	}
+		@Transactional
+		public Produto save(Produto _produto) {
+			return produtoRepository.save(_produto);
+		}
 	
 	// Método SELECT * FROM PRODUTO
 	public List<Produto> findAll(){
